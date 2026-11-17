@@ -5,9 +5,9 @@ def main():
             break
         except ValueError:
             print('please enter an integer')
-if n%10 == 0 and n%3 !=0:
+    if n%10 == 0 and n%3 !=0:
                 print(f"{n} is divisible by 10 or not divisble by 3.")
-            else:
+else:
                 print(f"{n} is not divisible by 10 or divisble by 3.")
         
 
