@@ -4,7 +4,7 @@ def main():
             n = int(input("Type an integer:"))
             break
         except ValueError:
-            print("please enter an integer.")
+            print("Please enter an integer.")
     if n%10 == 0 and n%3 !=0:
             print(f"{n} is divisible by 10 and not divisble by 3.")
     else:
