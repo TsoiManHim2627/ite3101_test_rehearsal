@@ -1,7 +1,8 @@
 def main():
     while True:
-            n = int(input("Type an integer:"))
-            break
+        try:
+        n = int(input("Type an integer:"))
+    break
         except ValueError:
             print('please enter an integer')
     if n%10 == 0 and n%3 !=0:
